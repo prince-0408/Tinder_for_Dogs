@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-       Image("home")
+       Image("home1")
         .aspectRatio(contentMode: .fit)
     }
 }

@@ -24,7 +24,7 @@ struct TabBar: View {
             }
             //MARK: - TAB Button
             HStack(spacing: 0) {
-                TabButton(title: "Home", image: "home", selected: $current)
+                TabButton(title: "Home", image: "home1", selected: $current)
                 Spacer(minLength: 0)
                 
                 TabButton(title: "Slide", image: "paws", selected: $current)
