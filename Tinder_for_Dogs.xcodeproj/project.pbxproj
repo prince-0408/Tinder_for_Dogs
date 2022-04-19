@@ -71,9 +71,9 @@
 		17429327280F23A900BC47A4 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
-				17429331280F390F00BC47A4 /* MessageView.swift */,
-				17479ECD280E8D0F0048DE72 /* SlideView.swift */,
 				17479EC7280E8CD80048DE72 /* HomeView.swift */,
+				17479ECD280E8D0F0048DE72 /* SlideView.swift */,
+				17429331280F390F00BC47A4 /* MessageView.swift */,
 				1742932B280F38BD00BC47A4 /* Profile.swift */,
 				17429326280F238F00BC47A4 /* TabBar */,
 			);

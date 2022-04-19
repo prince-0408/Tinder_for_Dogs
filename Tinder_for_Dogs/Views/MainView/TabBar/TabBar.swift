@@ -18,13 +18,13 @@ struct TabBar: View {
                 SlideView()
                     .tag("Slide")
                 MessageView()
-                    .tag("Message")
+                    .tag("Match")
                 ProfileView()
                     .tag("Profile")
             }
-            
+            //MARK: - TAB Button
             HStack(spacing: 0) {
-                TabButton(title: "Home", image: "Home", selected: $current)
+                TabButton(title: "Home", image: "home", selected: $current)
                 Spacer(minLength: 0)
                 
                 TabButton(title: "Slide", image: "paws", selected: $current)
