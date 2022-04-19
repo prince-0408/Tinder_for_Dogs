@@ -10,7 +10,6 @@ import SwiftUI
 struct Dogs: Identifiable {
     var id = UUID()
     var title: String
-    var headline: String
     var image: String
     var gradientColors: [Color]
     var description: String

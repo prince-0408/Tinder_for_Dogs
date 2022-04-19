@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17429320280F1FEB00BC47A4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742931F280F1FEB00BC47A4 /* TabBar.swift */; };
+		17429323280F219C00BC47A4 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17429322280F219C00BC47A4 /* TabButton.swift */; };
+		1742932C280F38BD00BC47A4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742932B280F38BD00BC47A4 /* Profile.swift */; };
+		17429332280F390F00BC47A4 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17429331280F390F00BC47A4 /* MessageView.swift */; };
 		1743349727FF5DE600196B92 /* Tinder_for_DogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743349627FF5DE600196B92 /* Tinder_for_DogsApp.swift */; };
 		1743349927FF5DE600196B92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743349827FF5DE600196B92 /* ContentView.swift */; };
 		1743349B27FF5DE800196B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1743349A27FF5DE800196B92 /* Assets.xcassets */; };
 		1743349E27FF5DE800196B92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1743349D27FF5DE800196B92 /* Preview Assets.xcassets */; };
+		17463B73280DC6290060711F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17463B72280DC6290060711F /* LoginView.swift */; };
+		17463B76280DC63C0060711F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17463B75280DC63C0060711F /* SignInView.swift */; };
+		17479EC8280E8CD80048DE72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17479EC7280E8CD80048DE72 /* HomeView.swift */; };
+		17479ECE280E8D0F0048DE72 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17479ECD280E8D0F0048DE72 /* SlideView.swift */; };
 		17D691BD280AD4BB00811F40 /* DogsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D691BC280AD4BB00811F40 /* DogsCardView.swift */; };
 		17D691C0280AE0A900811F40 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D691BF280AE0A900811F40 /* ButtonView.swift */; };
 		17D691C3280B16C900811F40 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D691C2280B16C900811F40 /* OnboardingView.swift */; };
@@ -19,12 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1742931F280F1FEB00BC47A4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		17429322280F219C00BC47A4 /* TabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		1742932B280F38BD00BC47A4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		17429331280F390F00BC47A4 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		1743349327FF5DE500196B92 /* Tinder_for_Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder_for_Dogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1743349627FF5DE600196B92 /* Tinder_for_DogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_for_DogsApp.swift; sourceTree = "<group>"; };
 		1743349827FF5DE600196B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1743349A27FF5DE800196B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1743349D27FF5DE800196B92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1743349F27FF5DE800196B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17463B72280DC6290060711F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		17463B75280DC63C0060711F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		17479EC7280E8CD80048DE72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		17479ECD280E8D0F0048DE72 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 		17D691BC280AD4BB00811F40 /* DogsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsCardView.swift; sourceTree = "<group>"; };
 		17D691BF280AE0A900811F40 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		17D691C2280B16C900811F40 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -43,6 +59,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17429326280F238F00BC47A4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1742931F280F1FEB00BC47A4 /* TabBar.swift */,
+				17429322280F219C00BC47A4 /* TabButton.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		17429327280F23A900BC47A4 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				17429331280F390F00BC47A4 /* MessageView.swift */,
+				17479ECD280E8D0F0048DE72 /* SlideView.swift */,
+				17479EC7280E8CD80048DE72 /* HomeView.swift */,
+				1742932B280F38BD00BC47A4 /* Profile.swift */,
+				17429326280F238F00BC47A4 /* TabBar */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		17429328280F23CD00BC47A4 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				17D691BF280AE0A900811F40 /* ButtonView.swift */,
+				17D691BC280AD4BB00811F40 /* DogsCardView.swift */,
+				17D691C2280B16C900811F40 /* OnboardingView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		17429329280F23E500BC47A4 /* Login & SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				17463B72280DC6290060711F /* LoginView.swift */,
+				17463B75280DC63C0060711F /* SignInView.swift */,
+			);
+			path = "Login & SignUp";
+			sourceTree = "<group>";
+		};
 		1743348A27FF5DE500196B92 = {
 			isa = PBXGroup;
 			children = (
@@ -93,9 +149,9 @@
 		17D691C6280B18D000811F40 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				17D691BC280AD4BB00811F40 /* DogsCardView.swift */,
-				17D691BF280AE0A900811F40 /* ButtonView.swift */,
-				17D691C2280B16C900811F40 /* OnboardingView.swift */,
+				17429329280F23E500BC47A4 /* Login & SignUp */,
+				17429328280F23CD00BC47A4 /* OnboardingView */,
+				17429327280F23A900BC47A4 /* MainView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,13 +233,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17463B76280DC63C0060711F /* SignInView.swift in Sources */,
+				1742932C280F38BD00BC47A4 /* Profile.swift in Sources */,
 				17D691BD280AD4BB00811F40 /* DogsCardView.swift in Sources */,
 				1743349927FF5DE600196B92 /* ContentView.swift in Sources */,
 				17D691C0280AE0A900811F40 /* ButtonView.swift in Sources */,
 				17D691CD280B1B8A00811F40 /* DogData.swift in Sources */,
+				17479EC8280E8CD80048DE72 /* HomeView.swift in Sources */,
 				17D691C3280B16C900811F40 /* OnboardingView.swift in Sources */,
 				17D691C9280B1A5B00811F40 /* DogModel.swift in Sources */,
+				17429332280F390F00BC47A4 /* MessageView.swift in Sources */,
+				17479ECE280E8D0F0048DE72 /* SlideView.swift in Sources */,
+				17429320280F1FEB00BC47A4 /* TabBar.swift in Sources */,
+				17463B73280DC6290060711F /* LoginView.swift in Sources */,
 				1743349727FF5DE600196B92 /* Tinder_for_DogsApp.swift in Sources */,
+				17429323280F219C00BC47A4 /* TabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
